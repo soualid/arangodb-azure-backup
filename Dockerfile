@@ -1,4 +1,4 @@
-FROM library/arangodb:3.3.9
+FROM library/arangodb:3.2.15
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
